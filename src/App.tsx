@@ -7,10 +7,10 @@ import { PostDetails } from './components/PostDetails';
 const App: React.FC = () => (
   <div className="App">
     <header className="App__header">
-      <label>
+      <label htmlFor="App__users">
         Select a user: &nbsp;
 
-        <select className="App__user-selector">
+        <select className="App__user-selector" id="App__users">
           <option value="0">All users</option>
           <option value="1">Leanne Graham</option>
           <option value="2">Ervin Howell</option>
